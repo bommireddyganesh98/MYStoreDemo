@@ -48,6 +48,7 @@ public class LoginPageTest extends BaseClass {
 		String actualURL= getDriver().getCurrentUrl();
 		Log.info("Validating the url");
 		System.out.println("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");
+		System.out.println("Git access password");
 		assertEquals(actualURL, "http://www.automationpractice.pl/index.php?controller=my-account");
 		Log.endTestCase("End Test");
 	}
