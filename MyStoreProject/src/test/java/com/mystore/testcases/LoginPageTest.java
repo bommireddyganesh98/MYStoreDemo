@@ -47,7 +47,7 @@ public class LoginPageTest extends BaseClass {
 		homepage=loginpage.Login(usname,pasword);
 		String actualURL= getDriver().getCurrentUrl();
 		Log.info("Validating the url");
-		System.out.println("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");
+		System.out.println("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");
 		assertEquals(actualURL, "http://www.automationpractice.pl/index.php?controller=my-account");
 		Log.endTestCase("End Test");
 	}
